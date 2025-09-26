@@ -23,7 +23,8 @@ public class RegisterTest extends BaseTest {
                                      String zip, String phoneNum, String ssnNum, String uname, String pwd, String rpwd) {
         RegistrationPage regPage = new RegistrationPage(driver);
         regPage.register(fName, lName, addr, cityName, stateName, zip, phoneNum, ssnNum, uname, pwd, rpwd);
+        System.out.println(driver.getPageSource());
 
-        Assert.assertTrue(driver.getPageSource().contains("Your account was created successfully."));
+        Assert.assertTrue(driver.getPageSource().contains("Your account was created successfully. You are now logged in."));
     }
 }

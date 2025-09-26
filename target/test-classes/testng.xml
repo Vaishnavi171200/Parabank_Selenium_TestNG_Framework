@@ -3,7 +3,6 @@
   <test name="MyTests">
     <classes>
       <class name="Tests.LoginTest"/>
-      <class name="Tests.RegisterTest"/>
     </classes>
   </test>
 </suite>

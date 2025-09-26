@@ -2,25 +2,25 @@
 <testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-26T11:58:13 IST" name="Default suite" finished-at="2025-09-26T11:58:30 IST" duration-ms="16819">
+  <suite started-at="2025-09-26T13:14:57 IST" name="Default suite" finished-at="2025-09-26T13:15:11 IST" duration-ms="14718">
     <groups>
     </groups>
-    <test started-at="2025-09-26T11:58:13 IST" name="Default test" finished-at="2025-09-26T11:58:30 IST" duration-ms="16819">
+    <test started-at="2025-09-26T13:14:57 IST" name="Default test" finished-at="2025-09-26T13:15:11 IST" duration-ms="14718">
       <class name="Tests.RegisterTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:13 IST" name="setUp" finished-at="2025-09-26T11:58:17 IST" duration-ms="4212" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:14:57 IST" name="setUp" finished-at="2025-09-26T13:15:00 IST" duration-ms="3125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:17 IST" name="testUserRegistration" data-provider="registrationData" finished-at="2025-09-26T11:58:19 IST" duration-ms="2218" status="FAIL">
+        <test-method signature="testUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:15:00 IST" name="testUserRegistration" data-provider="registrationData" finished-at="2025-09-26T13:15:02 IST" duration-ms="2152" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Ramamani]]>
+                <![CDATA[Ramam]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Seshadri]]>
+                <![CDATA[Seshad]]>
               </value>
             </param>
             <param index="2">
@@ -55,17 +55,17 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[RamamaniQA1]]>
+                <![CDATA[RamamaniQA4]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[Vaish@123]]>
+                <![CDATA[Vaish@456]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[Vaish@123]]>
+                <![CDATA[Vaish@456]]>
               </value>
             </param>
           </params>
@@ -79,7 +79,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at Tests.RegisterTest.testUserRegistration(RegisterTest.java:27)
+at Tests.RegisterTest.testUserRegistration(RegisterTest.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -112,24 +112,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:19 IST" name="tearDown" finished-at="2025-09-26T11:58:19 IST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:15:02 IST" name="tearDown" finished-at="2025-09-26T13:15:02 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:19 IST" name="setUp" finished-at="2025-09-26T11:58:22 IST" duration-ms="2829" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:15:02 IST" name="setUp" finished-at="2025-09-26T13:15:05 IST" duration-ms="2677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:22 IST" name="testUserRegistration" data-provider="registrationData" finished-at="2025-09-26T11:58:25 IST" duration-ms="2216" status="FAIL">
+        <test-method signature="testUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:15:05 IST" name="testUserRegistration" data-provider="registrationData" finished-at="2025-09-26T13:15:06 IST" duration-ms="1761" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Lakshmi]]>
+                <![CDATA[Lakshi]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Narayan]]>
+                <![CDATA[Naraan]]>
               </value>
             </param>
             <param index="2">
@@ -164,17 +164,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="8">
               <value>
-                <![CDATA[LakshmiQA2]]>
+                <![CDATA[LakshmiQA5]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[Lakshmi@123]]>
+                <![CDATA[Lakshmi@789]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[Lakshmi@123]]>
+                <![CDATA[Lakshmi@789]]>
               </value>
             </param>
           </params>
@@ -188,7 +188,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at Tests.RegisterTest.testUserRegistration(RegisterTest.java:27)
+at Tests.RegisterTest.testUserRegistration(RegisterTest.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -221,24 +221,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:25 IST" name="tearDown" finished-at="2025-09-26T11:58:25 IST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:15:06 IST" name="tearDown" finished-at="2025-09-26T13:15:07 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:25 IST" name="setUp" finished-at="2025-09-26T11:58:27 IST" duration-ms="2533" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:15:07 IST" name="setUp" finished-at="2025-09-26T13:15:10 IST" duration-ms="3146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:27 IST" name="testUserRegistration" data-provider="registrationData" finished-at="2025-09-26T11:58:29 IST" duration-ms="2190" status="FAIL">
+        <test-method signature="testUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:15:10 IST" name="testUserRegistration" data-provider="registrationData" finished-at="2025-09-26T13:15:11 IST" duration-ms="1346" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Anita]]>
+                <![CDATA[Anta]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Rao]]>
+                <![CDATA[Ravngfo]]>
               </value>
             </param>
             <param index="2">
@@ -273,17 +273,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="8">
               <value>
-                <![CDATA[AnitaQA3]]>
+                <![CDATA[AnitaQA6]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[Anita@123]]>
+                <![CDATA[Anita@765]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[Anita@123]]>
+                <![CDATA[Anita@765]]>
               </value>
             </param>
           </params>
@@ -297,7 +297,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at Tests.RegisterTest.testUserRegistration(RegisterTest.java:27)
+at Tests.RegisterTest.testUserRegistration(RegisterTest.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -330,7 +330,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T11:58:29 IST" name="tearDown" finished-at="2025-09-26T11:58:30 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.RegisterTest@692f203f]" started-at="2025-09-26T13:15:11 IST" name="tearDown" finished-at="2025-09-26T13:15:11 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
