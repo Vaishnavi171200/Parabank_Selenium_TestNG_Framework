@@ -5,7 +5,7 @@
     <classes>
       <class name="Tests.RegisterTest">
         <methods>
-          <include name="testUserRegistration"/>
+          <include name="testUserRegistration" invocation-numbers="0 1 2"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
