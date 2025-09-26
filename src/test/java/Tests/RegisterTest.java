@@ -12,9 +12,9 @@ public class RegisterTest extends BaseTest {
     @DataProvider(name = "registrationData")
     public Object[][] getRegistrationData() {
         return new Object[][] {
-            {"Ramamani", "Seshadri", "123 Test Street", "Bangalore", "Karnataka", "560001", "9876543210", "123456789", "RamamaniQA1", "Vaish@123", "Vaish@123"},
-            {"Lakshmi", "Narayan", "456 Main Road", "Chennai", "Tamil Nadu", "600001", "9123456789", "987654321", "LakshmiQA2", "Lakshmi@123", "Lakshmi@123"},
-            {"Anita", "Rao", "789 Lake View", "Hyderabad", "Telangana", "500001", "9988776655", "111222333", "AnitaQA3", "Anita@123", "Anita@123"}
+            {"Ramam", "Seshad", "123 Test Street", "Bangalore", "Karnataka", "560001", "9876543210", "123456789", "RamamaniQA4", "Vaish@456", "Vaish@456"},
+            {"Lakshi", "Naraan", "456 Main Road", "Chennai", "Tamil Nadu", "600001", "9123456789", "987654321", "LakshmiQA5", "Lakshmi@789", "Lakshmi@789"},
+            {"Anta", "Ravngfo", "789 Lake View", "Hyderabad", "Telangana", "500001", "9988776655", "111222333", "AnitaQA6", "Anita@765", "Anita@765"}
         };
     }
 

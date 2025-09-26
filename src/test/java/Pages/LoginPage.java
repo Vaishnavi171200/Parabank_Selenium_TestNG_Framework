@@ -33,8 +33,8 @@ public class LoginPage {
 	
 	public void login(String username, String password)// To perform the login action using page elements
 	{
-		usernameField.sendKeys("Vaishnavi");
-		passwordField.sendKeys("Vaish@123");
+		usernameField.sendKeys("Srija");
+		passwordField.sendKeys("Srija@123");
 		loginButton.click();
 	}
 }
