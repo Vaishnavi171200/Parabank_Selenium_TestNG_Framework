@@ -2,8 +2,8 @@
 <suite name="MySuite">
   <test name="MyTests">
     <classes>
-      <class name="com.qa.tests.LoginTest"/>
-      <class name="com.qa.tests.RegisterTest"/>
+      <class name="Tests.LoginTest"/>
+      <class name="Tests.RegisterTest"/>
     </classes>
   </test>
 </suite>

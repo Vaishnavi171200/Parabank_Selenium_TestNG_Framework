@@ -1,7 +1,0 @@
-Tests\RegisterTest.class
-Utils\ConfigReader.class
-Pages\RegistrationPage.class
-Pages\LoginPage.class
-Utils\BaseTest.class
-Utils\DriverFactory.class
-Tests\LoginTest.class
