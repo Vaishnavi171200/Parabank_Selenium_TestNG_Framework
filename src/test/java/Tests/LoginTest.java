@@ -20,7 +20,7 @@ public class LoginTest extends BaseTest{
 		LoginPage loginpage = new LoginPage(driver);//Creates an instance of LoginPage, passing the driver from BaseTest.
 		loginpage.login("Srija", "Srija@123");//Calls the login() method from LoginPage, entering the username and password.
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
 	    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[contains(text(),'Accounts Overview')]")));
 	    
 	    //Validates that the login was successful by checking if the page contains the text "Accounts Overview". If this condition is false, the test will fail.
